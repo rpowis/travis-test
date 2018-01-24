@@ -1,2 +1,2 @@
 language: node_js
-script: git branch -a --contains HEAD
+script: git branch -a --contains HEAD | grep "remotes/origin/master"
