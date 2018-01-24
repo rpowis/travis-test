@@ -1,3 +1,2 @@
 language: node_js
-before_install: git remote set-branches --add origin master
 script: git branch -a --contains HEAD | grep "remotes/origin/master"
